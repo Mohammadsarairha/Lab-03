@@ -1,0 +1,16 @@
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\bin\Debug\net5.0\Lab03-App.exe
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\bin\Debug\net5.0\Lab03-App.deps.json
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\bin\Debug\net5.0\Lab03-App.runtimeconfig.json
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\bin\Debug\net5.0\Lab03-App.runtimeconfig.dev.json
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\bin\Debug\net5.0\Lab03-App.dll
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\bin\Debug\net5.0\Lab03-App.pdb
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.csproj.AssemblyReference.cache
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.AssemblyInfoInputs.cache
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.AssemblyInfo.cs
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.csproj.CoreCompileInputs.cache
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.dll
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\refint\Lab03-App.dll
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.pdb
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\Lab03-App.genruntimeconfig.cache
+C:\Users\HP\DotnetProject\Lab-03\Lab03-App\Lab03-App\obj\Debug\net5.0\ref\Lab03-App.dll
