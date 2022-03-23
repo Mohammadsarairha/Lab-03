@@ -1,11 +1,12 @@
 ﻿using System;
+using System.IO;
 
 namespace ConsoleApp1
 {
     internal class Program
     {
         //Challenge 1
-        static int multiplied()
+        static int Multiplied()
         {
             int[] num = new int [3];
             int result=1;
@@ -31,7 +32,7 @@ namespace ConsoleApp1
         }
 
         //Challenge 2
-        static int average()
+        static int Average()
         {
             int num = 0;
             
@@ -54,10 +55,11 @@ namespace ConsoleApp1
             int avg = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write($"{i+1} of {arr.Length} - Enter a number:");
+                Console.Write($"{i+1} of {arr.Length} - Enter a number: ");
                 try
                 {
-                    sum += Convert.ToInt32(Console.ReadLine());
+                   int inputNum = Convert.ToInt32(Console.ReadLine());
+                   sum += num >= 0 ? num : 0 ;
                 }
                 catch(FormatException)
                 {
@@ -65,11 +67,12 @@ namespace ConsoleApp1
                 }
             }
             avg = sum / arr.Length;
+            Console.Write("Average = ");
             return avg;
         }
 
         //Challenge 3
-        static void stars()
+        static void Stars()
         {
             for (int i = 1; i <= 5; i++)
             {
@@ -102,7 +105,7 @@ namespace ConsoleApp1
 
         //Challenge 4
 
-        static int duplicates(int[]arr)
+        static int Duplicates(int[]arr)
         {
             int repeat = 0;
             int maxRepeat = 0;
@@ -128,7 +131,7 @@ namespace ConsoleApp1
 
         //Challenge 5
 
-        static int maxNum(int [] arr)
+        static int MaxNum(int [] arr)
         {
             int max = arr[0];
             for (int i = 0; i < arr.Length; i++)
@@ -143,8 +146,60 @@ namespace ConsoleApp1
         }
 
         //Challenge 6
+        static void WriteToFile()
+        {
+            string path = "words.txt";
+            String content = "";
+            if (!File.Exists(path))
+            {
+                content = "Welcome to Words File ";
+                File.WriteAllText(path, content);
+            }
+                Console.WriteLine("Please Add Your Words");
+                content =" " + Console.ReadLine();
+                File.AppendAllText(path, content);
+        }
 
+        //Challenge 7
+        static void ReadFromFile()
+        {
+            String path = "words.txt";
+            if (!File.Exists(path))
+            { 
+                WriteToFile();
+            }
+            String[] fileContent = File.ReadAllLines(path);
+            for (int i = 0; i < fileContent.Length; i++)
+                Console.WriteLine(fileContent[i]);
+        }
 
+        //Challenge 8
+
+        static void Rewrites()
+        {
+            String path = "words.txt";
+            if (!File.Exists(path))
+            {
+                WriteToFile();
+            }
+            Console.WriteLine("Please add new world");
+            string content = Console.ReadLine();
+            File.WriteAllText(path, content);
+        }
+
+        //Challenge 9
+
+        static string[] SentenceLength()
+        {
+            Console.WriteLine("Please add your sentence ");
+            string[] sentence = Console.ReadLine().Split(' ');
+            for (int i = 0; i <  sentence.Length; i++)
+            {
+                sentence[i] = $"{sentence[i]}:{sentence[i].Length} ";
+            }
+
+            return sentence;
+        }
 
         static void Main(string[] args)
         {
